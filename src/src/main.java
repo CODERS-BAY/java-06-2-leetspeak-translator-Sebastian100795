@@ -5,7 +5,7 @@ public class main {
         Scanner scanner= new Scanner(System.in);
         boolean abbruch= scanner.hasNext("4");
 
-        System.out.println("Schreibe ein Wort in Großbuchstaben");
+        System.out.println("Schreibe ein Wort in Großbuchstaben und und in der nächsten Zeile 4 zum Bestätigen");
 
         while (!abbruch){
             String wort= scanner.next();
